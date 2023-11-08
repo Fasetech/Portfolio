@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+    <title>Fabian Daschner | Developer</title>
+
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="Fasetech, Fabian Daschner, Java, Web Developer" />
+
+    <!-- Improve your SEO by adding a small description of you -->
+    <meta name="description" content="Fabian Daschner | Developer" />
+
+    <!-- Add your png Logo to the assets folder and change the href attr accordingly  -->
+    <link rel="icon" type="image/png" href="./assets/your-logo.jpg" />
+
+    <!-- Add your primary-theme color for the value of content -->
+    <meta name="theme-color" content="#333399" />
+
+    <!-- link tags -->
+    <link rel="preload" as="style" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- FontAwesome Icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./javascript/scrollreveal.min.js"></script>
+    <script defer type="text/javascript" src="./javascript/scrollreveal.js"></script>
+
+    <!-- Remove Google Analytics once you have your portfolio website set-up -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-122228201-4');
+    </script>
+    <!-- End of Google Analytics -->
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hi, my name is <span class="text-color-main name">Fabian Daschner</span>
+          <br />
+          I'm a Developer
+          <br />
+          & Student
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-button cta-button--hero" href="#about-section">Get To Know Me</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down"> <div class="scroll-down"></div></a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-container">
+          <div class="about-image">
+            <img class="img-fluid" src="./assets/your-profile-image.jpg" alt="Profile Image" />
+          </div>
+          <div class="about-info">
+            <p class="about-text">
+              I'm a 19-year-old programmer with a focus on web development, databases, and software development. Currently, I'm studying data privacy and IT security to deepen my expertise. My
+              enthusiasm for technology drives me to create innovative solutions in the digital world.
+            </p>
+            <p class="about-text">
+              In addition to my technical skills, I have experience in event management and event technology. This versatility underscores my organizational abilities. My goal is to make the digital
+              world safer and more efficient by applying my technical skills and knowledge in practice.
+            </p>
+            <!--
+            <span class="about-cta">
+              <a href="#" class="cta-button cta-button--resume">View Resume</a>
+            </span>
+            -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-container">
+          <h2 class="section-title">Projects</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-text">
+              <h3 class="project-title">My Portfolio</h3>
+              <p class="project-info">
+                My portfolio project is a concise representation of my skills and experiences as a 19-year-old programmer, highlighting my commitment to enhancing digital security and efficiency while
+                also showcasing my expertise in event management and technology.
+              </p>
+              <div class="project-buttons">
+                <a href="https://www.fasetech.de" target="_blank" rel="noopener noreferrer" class="cta-button cta-button--hero cta-button--projects">See Live</a>
+                <a href="https://github.com/Fasetech/Portfolio" target="_blank" class="cta-button text-color-main">Source Code</a>
+              </div>
+            </div>
+
+            <div class="project-image">
+              <a href="#projects" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img src="./assets/project-image.jpg" class="img-fluid" alt="Project Image" width="1366" height="767" />
+                </div>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-container">
+          <p class="contact-text">If you want to contact me</p>
+          <a href="https://www.linkedin.com/in/fabian-daschner-661676228" target="_blank" class="cta-button cta-button--resume">LinkedIn</a>
+          <a href="mailto:portfolio@fasetech.de" class="cta-button cta-button--resume">Email</a>
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer id="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/fabian-daschner-661676228" target="_blank" rel="noopener noreferrer" aria-label="linkedin">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/Fasetech" target="_blank" rel="noopener noreferrer" aria-label="github">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <hr />
+        <p class="footer-text">&copy; <span id="year"></span> - Fabian Daschner.</p>
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
